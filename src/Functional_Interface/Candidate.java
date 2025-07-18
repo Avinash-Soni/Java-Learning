@@ -1,4 +1,6 @@
 package Functional_Interface;
 
-public class Truth {
+@FunctionalInterface
+public interface Candidate {
+    boolean isCandidate(int num);
 }

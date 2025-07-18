@@ -8,7 +8,8 @@ public class DiceRoll {
             System.out.print("Roll your Dice (yes/no) : ");
             command = input.next();
             if (command.equals("yes")){
-                System.out.println((int)(Math.random()*10));
+                int output = (int)(Math.ceil(Math.random()*6));
+                    System.out.println(output);
             }
 
         }while (command.equals("yes"));
